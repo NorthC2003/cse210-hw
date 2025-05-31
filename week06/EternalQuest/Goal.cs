@@ -11,7 +11,7 @@ public abstract class Goal
         _points = points;
     }
 
-    public abstract int RecordEvent(); // Returns earned points
+    public abstract int RecordEvent();
     public abstract bool IsComplete();
     public abstract string GetStatus();
     public abstract string GetSaveData();
